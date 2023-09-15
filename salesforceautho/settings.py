@@ -123,11 +123,3 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-SALESFORCE_CLIENT_ID = "3MVG9fe4g9fhX0E4MiDpmbEHPzdeMMAr6n5T6hlXZYXha.SCp9Ci.28ZXVQ.UTq0t_B9cLQ9Hn3kRsTiC_RPQ"
-SALESFORCE_CLIENT_SECRET = (
-    "BB26D0BD4152548A475F87F3299544553163CEDDB0ED990EF261AA70F3129EDA"
-)
-SALESFORCE_AUTH_REDIRECT_URI = (
-    "http://localhost:8000/auth/"  # Replace with your actual redirect URI
-)
